@@ -1,4 +1,4 @@
-import { request } from 'undici'
+const {request} = require('undici');
 
 async function getStream(id) {
     let url = 'https://www.youtube.com/channel/' + id + '/live';
