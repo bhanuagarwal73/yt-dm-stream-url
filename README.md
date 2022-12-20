@@ -5,7 +5,7 @@
 [Node.js](https://nodejs.org/en/) required
 ```bash
 npm install yt-dm-stream-url
-
+```
 
 ## Usage
 
