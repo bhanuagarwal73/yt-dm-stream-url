@@ -6,6 +6,7 @@ export default async function getStream(id) {
     let bodyText = await body.text();
     let stream = bodyText.match(/(?<=hlsManifestUrl":").*\.m3u8/g);
     if (stream) {
+        console.log(stream);
         return stream;
     }
     else {

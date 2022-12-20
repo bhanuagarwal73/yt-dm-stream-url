@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
         "esModuleInterop": true,
-        "module": "CommonJS",
+        "module": "ESNext",
+        "moduleResolution": "Node",
         "target": "ES2015",
-        "lib": ["ES2021", "DOM"],
-        "types": ["node"],
+        "types": [
+            "node"
+        ],
         "downlevelIteration": true,
         "outDir": "./out"
-    }
+    },
 }
