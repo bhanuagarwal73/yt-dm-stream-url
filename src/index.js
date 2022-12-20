@@ -1,6 +1,6 @@
 import { request } from 'undici'
 
-export default async function getStream(id) {
+async function getStream(id) {
     let url = 'https://www.youtube.com/channel/' + id + '/live';
     const { body } = await request(url);
     let bodyText = await body.text();
@@ -13,3 +13,5 @@ export default async function getStream(id) {
         return 'Check channel id';
     }
 }
+
+exports.getStream = getStream;
