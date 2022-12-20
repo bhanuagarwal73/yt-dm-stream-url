@@ -1,6 +1,6 @@
 {
   "name": "yt-dm-stream-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the streaming url's from yt & dm",
   "main": "index.js",
   "scripts": {
