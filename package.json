@@ -1,0 +1,25 @@
+{
+  "name": "yt-dm-stream-url",
+  "version": "1.0.0",
+  "description": "Get the streaming url's from yt & dm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhanuagarwal73/yt-dm-stream-url.git"
+  },
+  "keywords": [
+    "yt-dm-stream-url"
+  ],
+  "author": "bhanuagarwal73 (bhanuagarwal73@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhanuagarwal73/yt-dm-stream-url/issues"
+  },
+  "homepage": "https://github.com/bhanuagarwal73/yt-dm-stream-url#readme",
+  "dependencies": {
+    "undici": "^5.14.0"
+  }
+}
