@@ -1,5 +1,6 @@
 # Project exclude paths
 /node_modules/
+/out/
 
 #Exclude package lock json file
 /package-lock.json

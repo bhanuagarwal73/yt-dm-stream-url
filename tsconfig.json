@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "module": "CommonJS",
+        "target": "ES2015",
+        "lib": ["ES2021", "DOM"],
+        "downlevelIteration": true,
+        "outDir": "./out"
+    }
+}
