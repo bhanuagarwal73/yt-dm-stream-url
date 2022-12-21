@@ -13,15 +13,19 @@ Require YouTube channel-id.
 
 Example: 
 
-```https://www.youtube.com/channel/UCiLfeVOBJoAPUbiKxrHBcuw```
+```https://www.youtube.com/channel/your_youtube_channel_id```
+```https://www.youtube.com/watch?v=your_youtube_video_id```
+```https://www.dailymotion.com/video/your_dailymotion_video_id```
 
-```UCiLfeVOBJoAPUbiKxrHBcuw``` is the channel-id string from the above url
+
+Note:
+Only supports links given in above formats
 
 ```js
 import yt from 'yt-dm-stream-url';
 
 // returns .m3u8 link for the live stream 
-await yt.getStream("UCiLfeVOBJoAPUbiKxrHBcuw")
+await yt.getStream("https://www.youtube.com/channel/UCiLfeVOBJoAPUbiKxrHBcuw")
     .then(data => console.log(data))
 ```
 Example output:
