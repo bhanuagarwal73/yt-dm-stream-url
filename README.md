@@ -18,10 +18,10 @@ Example:
 ```UCiLfeVOBJoAPUbiKxrHBcuw``` is the channel-id string from the above url
 
 ```js
-const yt = require('yt-live-url');
+import yt from 'yt-dm-stream-url';
 
 // returns .m3u8 link for the live stream 
-yt.getStream("UCiLfeVOBJoAPUbiKxrHBcuw")
+await yt.getStream("UCiLfeVOBJoAPUbiKxrHBcuw")
     .then(data => console.log(data))
 ```
 Example output:
