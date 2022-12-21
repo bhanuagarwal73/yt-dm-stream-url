@@ -23,10 +23,11 @@ async function getStream(ytdmURL) {
     }
     else if (url.includes("youtube")) {
         let bodyText = await body.text();
-        stream = bodyText.match(/(?<=hlsManifestUrl":").*\.m3u8/g);
+        stream = bodyText.match(/(?<=hlsManifestUrl":").*\.m3u8/g)[0];
     }
 
     if (stream) {
+        console.log(stream);
         return stream;
     }
     else {
@@ -34,4 +35,4 @@ async function getStream(ytdmURL) {
     }
 }
 
-exports.getStream = getStream();
+exports.getStream = getStream("https://www.youtube.com/channel/UCiLfeVOBJoAPUbiKxrHBcuw");
