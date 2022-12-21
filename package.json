@@ -1,6 +1,6 @@
 {
   "name": "yt-dm-stream-url",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Get the streaming url's from yt & dm",
   "main": "src/index.js",
   "scripts": {
@@ -11,7 +11,12 @@
     "url": "git+https://github.com/bhanuagarwal73/yt-dm-stream-url.git"
   },
   "keywords": [
-    "yt-dm-stream-url"
+    "yt-dm-stream-url",
+    "youtube",
+    "stream",
+    "dailymotion",
+    "m3u8",
+    "live"
   ],
   "author": "bhanuagarwal73 (bhanuagarwal73@gmail.com)",
   "license": "ISC",
