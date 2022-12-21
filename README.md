@@ -37,7 +37,7 @@ Example output:
 ```
 
 ## Contribute
-Did you find a bug? Do you have an idea or a feature request? [Open an issue!](https://github.com/arapurayil/yt-live-url/issues)
+Did you find a bug? Do you have an idea or a feature request? [Open an issue!](https://github.com/bhanuagarwal73/yt-dm-stream-url/issues)
 
 ## License
 [ISC](https://github.com/bhanuagarwal73/yt-dm-stream-url/blob/master/LICENSE)
