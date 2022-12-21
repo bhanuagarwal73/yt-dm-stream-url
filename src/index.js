@@ -35,4 +35,4 @@ async function getStream(ytdmURL) {
     }
 }
 
-exports.getStream = getStream("https://www.youtube.com/channel/UCiLfeVOBJoAPUbiKxrHBcuw");
+exports.getStream = getStream();
