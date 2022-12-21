@@ -1,5 +1,4 @@
 const { request } = require('undici');
-const fs = require('fs');
 
 async function getStream(ytdmURL) {
     let url = String(ytdmURL);
@@ -35,4 +34,4 @@ async function getStream(ytdmURL) {
     }
 }
 
-exports.getStream = getStream();
+exports.getStream = getStream;
