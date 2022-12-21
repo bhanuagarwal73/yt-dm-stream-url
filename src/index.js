@@ -26,7 +26,7 @@ async function getStream(ytdmURL) {
     }
 
     if (stream) {
-        console.log(stream);
+        // console.log(stream);
         return stream;
     }
     else {
