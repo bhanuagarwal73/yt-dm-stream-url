@@ -24,6 +24,10 @@ async function getStream(ytdmURL) {
         let bodyText = await body.text();
         stream = bodyText.match(/(?<=hlsManifestUrl":").*\.m3u8/g)[0];
     }
+    else if(url.includes("hungama.com")) {
+        let bodyText = await body.text();
+        stream = bodyText.match(/(?<=stream_url:\s').*(?=')/g)[0];
+    }
 
     if (stream) {
         // console.log(stream);
@@ -34,4 +38,4 @@ async function getStream(ytdmURL) {
     }
 }
 
-exports.getStream = getStream;
+exports.getStream = getStream("https://www.hungama.com/live-tv/kadak-hits/41239439/");
