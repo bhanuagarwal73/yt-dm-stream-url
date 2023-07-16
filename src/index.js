@@ -38,4 +38,4 @@ async function getStream(ytdmURL) {
     }
 }
 
-exports.getStream = getStream("https://www.hungama.com/live-tv/kadak-hits/41239439/");
+exports.getStream = getStream;
