@@ -16,6 +16,7 @@ Example:
 ```https://www.youtube.com/channel/your_youtube_channel_id```
 ```https://www.youtube.com/watch?v=your_youtube_video_id```
 ```https://www.dailymotion.com/video/your_dailymotion_video_id```
+```https://www.hungama.com/live-tv/your_hungama_video_id/```
 
 
 Note:
@@ -27,6 +28,11 @@ import yt from 'yt-dm-stream-url';
 
 // returns .m3u8 link for the live stream 
 await yt.getStream("https://www.youtube.com/channel/UCiLfeVOBJoAPUbiKxrHBcuw")
+    .then(data => console.log(data))
+
+    OR
+
+await yt.getStream("https://www.hungama.com/live-tv/dil-se/41239464/")
     .then(data => console.log(data))
 ```
 Example output:

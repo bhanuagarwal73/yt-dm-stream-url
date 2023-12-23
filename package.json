@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/bhanuagarwal73/yt-dm-stream-url#readme",
   "dependencies": {
-    "undici": "^5.22.1"
+    "undici": "^6.2.1"
   }
 }
