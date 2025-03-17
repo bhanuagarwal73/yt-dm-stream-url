@@ -1,6 +1,6 @@
 {
   "name": "yt-dm-stream-url",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "description": "Get the streaming url's from yt & dm",
   "main": "src/index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/bhanuagarwal73/yt-dm-stream-url#readme",
   "dependencies": {
-    "undici": "^6.19.7"
+    "undici": "^7.5.0"
   }
 }
